@@ -77,10 +77,7 @@ pipeline_text = TrellisTextTo3DPipeline.from_pretrained(
 pipeline_text.cuda()
 
 prompt = (
-    "A stylized cartoon cat character with a spherical head, pointed ears, "
-    "prominent eyes, a curved mouth, a cylindrical torso with a white patch, "
-    "elongated arms with large hands, tapered legs, and rounded feet. "
-    "Predominantly black with white details."
+    "A stylized cartoon cat character with a spherical head, pointed ears, prominent eyes, a curved mouth, a cylindrical torso with a white patch, elongated arms with large hands, tapered legs, and rounded feet. Predominantly black with white details."
 )
 
 run_text_task(pipeline_text, prompt, "results/text/1")
