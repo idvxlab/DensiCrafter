@@ -66,7 +66,7 @@ image_paths = [
 ]
 
 run_multi_image_task(pipeline_image, image_paths, "results/multi-image/1")
-run_single_image_task(pipeline_image, image_paths[0], "results/single-image/1")
+run_single_image_task(pipeline_image, image_paths[2], "results/single-image/1")
 
 # ---------------------------
 # Text-to-3D Pipeline
